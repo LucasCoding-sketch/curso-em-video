@@ -1,4 +1,5 @@
 body {
-    color: #a3b2c1;
-    background-color: #ccc;
+    color: rgb(255, 255, 255);
+    background-color: rgb(185, 216, 246);
+    font: normal 20pt arial;
 }
