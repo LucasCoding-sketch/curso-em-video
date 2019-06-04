@@ -24,3 +24,14 @@ n = n / 2
 n = n ** 2
 n = n % 5
 console.log(n)
+
+
+//auto atribuicao simplificada
+var n = 3
+n += 4
+n -= 5
+n *= 4
+n /= 2
+n **=  2
+n %= 5
+console.log(n)
