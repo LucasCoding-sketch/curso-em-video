@@ -47,3 +47,13 @@ var y = 6
 y--
 y--
 console.log(y)
+
+
+//cuidado com o pre e o pós incremento
+var x = 0
+--x //pre
+x-- //pós
+
+var y = 0
+++y //pre
+y++ //pos
