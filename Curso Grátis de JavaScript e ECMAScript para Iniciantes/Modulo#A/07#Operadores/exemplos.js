@@ -13,3 +13,14 @@ var d = 10 - a / 2 //6
 var e = 6 * 2 / d // 2
 var f = b % e + 4 / e //3
 console.log(f)
+
+
+//auto atribuicao
+var n = 3
+n = n + 4
+n = n - 5
+n = n * 4
+n = n / 2
+n = n ** 2
+n = n % 5
+console.log(n)
