@@ -35,3 +35,15 @@ n /= 2
 n **=  2
 n %= 5
 console.log(n)
+
+
+//incremento decremento
+var x = 6
+x++
+x++
+console.log(x)
+
+var y = 6
+y--
+y--
+console.log(y)
