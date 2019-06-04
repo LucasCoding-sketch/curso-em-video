@@ -21,14 +21,15 @@ console.log(decimal_number.toFixed(2))
 console.log(decimal_number.toFixed(4))
 
 
-var salario = 1200.00
+var salario = 12000.00
 
-var locale = 'pt-BR'
+var salarioReal = salario.toLocaleString('pt-BR', {style: 'currency', 'currency': 'BRL'})
 
-var oprtionsObjectToMyLocaleString = {style: 'currency', 'currency': 'BRL' }
+var salarioDollar = salario.toLocaleString('en-US', {style: 'currency', 'currency': 'USD'})
 
-salario = salario.toLocaleString(locale, oprtionsObjectToMyLocaleString)
+var salarioEuro = salario.toLocaleString('pt-PT', {style: 'currency', 'currency': 'EUR'})
 
 
-console.log(salario)
-//R$1,200.00
+console.log(salarioReal)
+console.log(salarioDollar)
+console.log(salarioEuro)
