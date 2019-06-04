@@ -1,3 +1,5 @@
 var nome = window.prompt('Qual o seu nome')
 
-document.write(`Se nome tem ${nome.length} letras`)
+document.write(`Ola ${nome}, seu nome tem ${nome.length} letras<br/>`)
+document.write(`seu nome em maiusculo fica ${nome.toUpperCase()}<br/>`)
+document.write(`seu nome em minusculo fica ${nome.toLowerCase()}`)
