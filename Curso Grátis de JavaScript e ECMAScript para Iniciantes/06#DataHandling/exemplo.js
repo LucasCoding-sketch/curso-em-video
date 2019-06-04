@@ -12,3 +12,10 @@ console.log('O aluno ' + nome + " com a idade de: " + idade + ' tirou nota ' + n
 
 
 console.log(`O aluno ${nome} com a idade de: ${idade} tirou nota ${nota}`)
+
+
+var decimal_number = 140.01
+console.log(decimal_number.toFixed(0))
+console.log(decimal_number.toFixed(1))
+console.log(decimal_number.toFixed(2))
+console.log(decimal_number.toFixed(4))
