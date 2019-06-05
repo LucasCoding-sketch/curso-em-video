@@ -22,3 +22,14 @@ console.log(2 + 3 == 7 - 2)
 console.log(4 + 1 != 5 + 0)
 
 console.log('--------------------\n')
+
+
+// Cuidado com os operadores de igualdade use operador de IDENTIDADE
+console.log("\/\/Cuidado com os operadores de igualdade use operador de IDENTIDADE\n")
+console.log( 5 == '5') //true
+console.log( 5 === '5') //false - igualdade restrita
+
+console.log( 5 != '5') //false
+console.log( 5 !== '5') //true - deigualdade restrita
+
+console.log('--------------------\n')
