@@ -20,3 +20,6 @@ var elementName = 'okName'
 var divs = window.document.getElementsByName(elementName)
 divs[0].style.fontSize = '20px'
 divs[1].style.fontSize = '30px'
+
+var headingh1 = window.document.getElementsByClassName('headingh1')
+headingh1[0].style.fontSize = '50px'
