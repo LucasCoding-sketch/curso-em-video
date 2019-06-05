@@ -9,3 +9,16 @@ console.log(5 == 5)
 console.log(4 != 4)
 
 console.log('--------------------\n')
+
+
+//Operadores arititéticos tem precedencia sobre os relacionais
+console.log("\/\/Operadores arititéticos tem precedencia sobre os relacionais\n")
+
+console.log(5 - 1 >  2 + 1)
+console.log(7 + 3 <  7 + 3)
+console.log(8 + 2 >= 6 + 4)
+console.log(5 + 4 <= 9 - 2)
+console.log(2 + 3 == 7 - 2)
+console.log(4 + 1 != 5 + 0)
+
+console.log('--------------------\n')
