@@ -50,3 +50,12 @@ console.log('Operadores Lógico !')
 console.log(!true)
 console.log(!false)
 console.log('--------------------\n')
+
+
+
+// Precedencia
+console.log('Precedencia: \n1 aritimeticos\n2 relacionais\n3 logicos\n')
+console.log('3 + 5 * 2 > 9 / 3 + 1 && 9 - 1 < 20 + 5')
+var resposta = 3 + 5 * 2 > 9 / 3 + 1 && 9 - 1 < 20 + 5
+console.log(resposta)
+console.log('--------------------\n')
