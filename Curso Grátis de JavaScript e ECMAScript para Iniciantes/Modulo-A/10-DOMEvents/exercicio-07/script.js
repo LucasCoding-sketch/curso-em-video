@@ -11,7 +11,7 @@ function somar(){
 
     var s = n1 + n2
 
-    resultado.innerHTML = `A Soma entre ${n1} + ${n2} é : ${s}`
+    resultado.innerHTML = `A Soma entre ${n1} + ${n2} é : <strong>${s}</strong>`
 }
 
 document.querySelector("#somar").addEventListener('click', somar)
