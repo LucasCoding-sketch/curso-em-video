@@ -1,0 +1,5 @@
+//alert('ola mundo')
+console.log('ola mundo')
+console.log(window.navigator.appName)
+console.log(window.navigator.appCodeName)
+console.log(window.document.URL)
