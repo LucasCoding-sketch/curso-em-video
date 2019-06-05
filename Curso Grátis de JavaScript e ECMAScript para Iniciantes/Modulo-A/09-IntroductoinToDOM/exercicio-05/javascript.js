@@ -23,3 +23,6 @@ divs[1].style.fontSize = '30px'
 
 var headingh1 = window.document.getElementsByClassName('headingh1')
 headingh1[0].style.fontSize = '50px'
+
+var d = window.document.querySelector('div#msg')
+var d = window.document.querySelector('div.headingh1')
