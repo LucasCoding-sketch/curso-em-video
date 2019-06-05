@@ -33,3 +33,20 @@ console.log( 5 != '5') //false
 console.log( 5 !== '5') //true - deigualdade restrita
 
 console.log('--------------------\n')
+
+
+//Operadores Lógico
+console.log('Operadores Lógico &&')
+console.log(true  && true)
+console.log(true  && false)
+console.log(false && true)
+console.log(false && false)
+console.log('Operadores Lógico ||')
+console.log(true  || true)
+console.log(true  || false)
+console.log(false || true)
+console.log(false || false)
+console.log('Operadores Lógico !')
+console.log(!true)
+console.log(!false)
+console.log('--------------------\n')
