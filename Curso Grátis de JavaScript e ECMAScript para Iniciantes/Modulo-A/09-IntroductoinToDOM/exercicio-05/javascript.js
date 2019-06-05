@@ -12,3 +12,6 @@ firstParagraph.style.backgroundColor = "#999"
 
 var secoundParagraph = window.document.getElementsByTagName('p')[1]
 window.document.write("<br>" + secoundParagraph.innerHTML)
+
+var div = window.document.getElementById('msg')
+div.style.backgroundColor = 'green'
