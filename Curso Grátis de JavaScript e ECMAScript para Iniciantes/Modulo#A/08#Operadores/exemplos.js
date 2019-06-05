@@ -59,3 +59,9 @@ console.log('3 + 5 * 2 > 9 / 3 + 1 && 9 - 1 < 20 + 5')
 var resposta = 3 + 5 * 2 > 9 / 3 + 1 && 9 - 1 < 20 + 5
 console.log(resposta)
 console.log('--------------------\n')
+
+
+//Ternario ? : (tres partes)
+//teste ? true : false
+(7+7)/2 >= 7 ? "aprovado" : "reprovado" //aprovado
+(7+6.99)/2 >= 7 ? "aprovado" : "reprovado" //reprovado
