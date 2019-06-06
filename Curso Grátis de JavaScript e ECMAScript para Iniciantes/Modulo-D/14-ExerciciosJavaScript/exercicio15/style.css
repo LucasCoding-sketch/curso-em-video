@@ -33,3 +33,15 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+.noite {
+    background-color: #00112a;
+}
+
+.manha {
+    background-color: #fec993;
+}
+
+.tarde{
+    background-color: #d28b57;
+}
