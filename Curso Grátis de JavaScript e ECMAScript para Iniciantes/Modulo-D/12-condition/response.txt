@@ -1,0 +1,14 @@
+q01 Sabe utilizar a extenção node exc no vscode?
+sim, em um arquivo .js prescione f8
+
+q02 Sabe criar condições em seu programa js?
+if ('1' === 1){
+    console.log('Para esse mundo que eu quero desçer')
+} else {
+    console.log('Esta tudo bem! Vamos continuar')
+}
+
+q03 Sabe diferenciar condições simples e as condições compostas?
+Simple executa apenas um bloco caso a condição seja verdadira e indepentende
+de ser ou não executada o programa segue o seu fluxo
+Já a composta obrigatóriamente algum desvio vai ser executado ante do programa seguir seu fluxo.
