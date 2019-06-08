@@ -1,5 +1,12 @@
-function verificar(){
-    console.log('...')
+function addInfoClass(htmlElement){
+    htmlElement.classList.remove('alert-danger')
+    htmlElement.classList.add('alert', 'alert-info')
 }
 
-document.querySelector("input#verificar").addEventListener('click', verificar)
+
+function addDangerClass(htmlElement){
+    htmlElement.classList.remove('alert-info')
+    htmlElement.classList.add('alert', 'alert-danger')
+}
+
+
