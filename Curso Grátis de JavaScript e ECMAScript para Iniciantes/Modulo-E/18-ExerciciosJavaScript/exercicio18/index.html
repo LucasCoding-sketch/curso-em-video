@@ -13,8 +13,17 @@
         <h1>Titulo</h1>
     </header>
     <section>
-        <div>.</div>
-        <div>.</div>
+        <form action="" id="calcularTabuada">
+            <div class="form-group">
+                <label for="numerator"></label><input type="number" name="numerator" id="numerator" class="form-control">
+            </div>
+            <div class="form-group"><button type="submit" class="btn btn-primary">Tabuada</button></div>
+        
+            <div class="form-group">
+                <div id="resultError"></div>
+                <select name="result" id="result" class="form-control" size="10"></select>
+            </div>
+    </form>
     </section>
     <footer>&copy; tiagoti2</footer>
     <script src="../../../src/js/jquery-3.4.1.min.js"></script>
