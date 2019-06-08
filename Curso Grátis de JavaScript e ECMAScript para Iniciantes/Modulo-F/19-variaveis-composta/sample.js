@@ -9,3 +9,12 @@ console.log(automoveis)
 automoveis.push(-11)
 console.log(automoveis)
 console.log(automoveis[4])
+
+
+for(let i = 0; i < automoveis.length; i++){
+    console.log('for:' ,automoveis[i])
+}
+
+automoveis.forEach(element => {
+    console.log('forEach', element)
+});
