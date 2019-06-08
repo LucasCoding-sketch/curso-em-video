@@ -15,6 +15,10 @@ for(let i = 0; i < automoveis.length; i++){
     console.log('for:' ,automoveis[i])
 }
 
-automoveis.forEach(element => {
-    console.log('forEach', element)
+automoveis.forEach((element, index, array_) => {
+    console.log('forEach:', element, 'index : ', index, 'array : ', array_)
 });
+
+for(let automovel in automoveis){
+    console.log('for IN :' , automovel)
+}
