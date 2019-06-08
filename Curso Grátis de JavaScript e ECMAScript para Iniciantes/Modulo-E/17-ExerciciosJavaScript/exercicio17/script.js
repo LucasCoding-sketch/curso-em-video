@@ -62,6 +62,7 @@ function addPngSpan(text, pngName){
 
 function stepByStep(event){
     event.preventDefault()
+    document.getElementById('resultPlace').innerHTML = ''
     
 
     for(var i = getBegin(); i <=  getEnd(); i+=getStep()){
