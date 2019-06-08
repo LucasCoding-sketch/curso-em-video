@@ -48,12 +48,12 @@ function getStep(){
 }
 
 
-function addNinja(text){
+function addPngSpan(text, pngName){
     var resultPlace = document.getElementById('resultPlace')
     var image = document.createElement('img')
     var spam = document.createElement('span')
 
-    image.setAttribute('src', 'ninja.png')
+    image.setAttribute('src', `${pngName}.png`)
     spam.innerHTML = text
     spam.append(image)
     resultPlace.append(spam)
@@ -65,9 +65,9 @@ function stepByStep(event){
     
 
     for(var i = getBegin(); i <=  getEnd(); i+=getStep()){
-        addNinja(i)
+        addPngSpan(i, 'ninja')
     }
-    //addHappy(i)
+    addPngSpan('ok', 'happy')
 }
 
 document.querySelector('#stepByStep').addEventListener('submit', stepByStep)
