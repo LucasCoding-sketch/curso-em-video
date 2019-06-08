@@ -1,1 +1,5 @@
-console.log('exercicio x')
+function verificar(){
+    console.log('...')
+}
+
+document.querySelector("input#verificar").addEventListener('click', verificar)
