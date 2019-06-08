@@ -43,7 +43,7 @@ function verify(){
 
         var genere = defineGenere()
 
-        result.innerHTML = `${yearOld} + ${genere}`
+        result.innerHTML = `Detectado ${genere} de ${yearOld} anos!`
         addInfoClass(result)
     }
 }
