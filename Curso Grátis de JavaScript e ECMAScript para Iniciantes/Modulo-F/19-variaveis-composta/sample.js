@@ -22,3 +22,6 @@ automoveis.forEach((element, index, array_) => {
 for(let automovel in automoveis){
     console.log('for IN :' , automovel)
 }
+
+let chaveDoCinco = automoveis.indexOf(5)
+console.log(chaveDoCinco)
