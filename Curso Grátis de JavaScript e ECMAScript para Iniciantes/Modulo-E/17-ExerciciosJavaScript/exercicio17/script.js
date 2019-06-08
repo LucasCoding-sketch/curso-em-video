@@ -47,6 +47,19 @@ function getStep(){
     }
 }
 
+
+function addNinja(text){
+    var resultPlace = document.getElementById('resultPlace')
+    var image = document.createElement('img')
+    var spam = document.createElement('span')
+
+    image.setAttribute('src', 'ninja.png')
+    spam.innerHTML = text
+    spam.append(image)
+    resultPlace.append(spam)
+}
+
+
 function stepByStep(event){
     event.preventDefault()
     
@@ -54,7 +67,7 @@ function stepByStep(event){
     for(var i = getBegin(); i <=  getEnd(); i+=getStep()){
         addNinja(i)
     }
-    addHappy(i)
+    //addHappy(i)
 }
 
 document.querySelector('#stepByStep').addEventListener('submit', stepByStep)
