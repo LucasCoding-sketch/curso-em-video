@@ -64,5 +64,8 @@ window.document.querySelector('#showResultAdded').addEventListener('click',()=>{
         let median    = sum / informedNumbers.length
 
         displayResultSummary(greatThan,lessThan, sum, median)
+    }else{
+        window.document.querySelector('#showErrors').innerHTML = "Adicione numeros a sua lista"
+        $('#errorModal').modal('show')
     }
 })
