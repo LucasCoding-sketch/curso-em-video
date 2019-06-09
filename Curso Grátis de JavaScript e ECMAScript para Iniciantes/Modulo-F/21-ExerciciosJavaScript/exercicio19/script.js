@@ -25,3 +25,15 @@ let updateSelectElement = (currentArray) => {
         selectElement.append(optionElement)
     })
 }
+
+
+window.document.querySelector('#add').addEventListener('click',()=>{
+    if (hasSomeContent(getNumber())){
+        addToArray(informedNumbers, getNumber())
+        informedNumbers.sort()
+        updateSelectElement(informedNumbers)
+        window.document.querySelector('input#number').value = ''
+    }else{
+        alert("Informe um número")
+    }
+})
