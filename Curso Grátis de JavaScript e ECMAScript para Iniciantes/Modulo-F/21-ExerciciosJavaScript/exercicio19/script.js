@@ -54,3 +54,15 @@ let displayResultSummary = (great, less, sum, median)=>{
         ul.append(li)
     })
 }
+
+
+window.document.querySelector('#showResultAdded').addEventListener('click',()=>{
+    if (!informedNumbers.length < ONE){
+        let greatThan = informedNumbers[informedNumbers.length -1];
+        let lessThan  = informedNumbers[0];
+        let sum       = informedNumbers.reduce((a,b)=>(Number(a)+Number(b)))
+        let median    = sum / informedNumbers.length
+
+        displayResultSummary(greatThan,lessThan, sum, median)
+    }
+})
