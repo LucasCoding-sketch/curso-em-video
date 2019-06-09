@@ -35,7 +35,8 @@ window.document.querySelector('#add').addEventListener('click',()=>{
         updateSelectElement(informedNumbers)
         window.document.querySelector('input#number').value = ''
     }else{
-        alert("Informe um número")
+        window.document.querySelector('#showErrors').innerHTML = "Informe um número"
+        $('#errorModal').modal('show')
     }
 })
 
