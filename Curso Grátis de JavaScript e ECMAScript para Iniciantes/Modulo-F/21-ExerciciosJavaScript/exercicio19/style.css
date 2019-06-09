@@ -27,3 +27,8 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+
+#displayResultSummary{
+    border: 1px solid rgb(142, 142, 142);
+}
