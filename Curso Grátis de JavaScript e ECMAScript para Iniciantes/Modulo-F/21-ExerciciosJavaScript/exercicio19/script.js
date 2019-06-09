@@ -1,0 +1,1 @@
+document.querySelector("form#show").addEventListener('submit',(event)=>{event.preventDefault()})
