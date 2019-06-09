@@ -28,6 +28,12 @@ let updateSelectElement = (currentArray) => {
 }
 
 
+let showModalMessage=(text)=>{
+    window.document.querySelector('#showErrors').innerHTML = text
+    $('#errorModal').modal('show')
+}
+
+
 window.document.querySelector('#add').addEventListener('click',()=>{
     if (hasSomeContent(getNumber())){
         addToArray(informedNumbers, getNumber())
@@ -35,8 +41,7 @@ window.document.querySelector('#add').addEventListener('click',()=>{
         updateSelectElement(informedNumbers)
         window.document.querySelector('input#number').value = ''
     }else{
-        window.document.querySelector('#showErrors').innerHTML = "Informe um número"
-        $('#errorModal').modal('show')
+        showModalMessage("Informe um número")
     }
 })
 
@@ -66,7 +71,6 @@ window.document.querySelector('#showResultAdded').addEventListener('click',()=>{
 
         displayResultSummary(greatThan,lessThan, sum, median)
     }else{
-        window.document.querySelector('#showErrors').innerHTML = "Adicione numeros a sua lista"
-        $('#errorModal').modal('show')
+        showModalMessage("Adicione numeros a sua lista")
     }
 })
