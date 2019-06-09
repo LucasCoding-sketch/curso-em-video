@@ -1,4 +1,5 @@
 const ZERO = 0
+const ONE  = 1
 
 let informedNumbers = []
 
@@ -37,3 +38,19 @@ window.document.querySelector('#add').addEventListener('click',()=>{
         alert("Informe um número")
     }
 })
+
+
+let displayResultSummary = (great, less, sum, median)=>{
+    $('#displayResultSummary').empty()
+    let ul = window.document.createElement('ul')
+    document.querySelector("#displayResultSummary").append(ul)
+    datas = [['Maior', great], ['Menor', less],['Soma',sum],['Media',median]]
+    
+    datas.forEach((e)=>{
+        console.log(e[0])
+        console.log(e[1])
+        let li = window.document.createElement('li')
+        li.innerHTML = `${e[0]} : <strong>${e[1]}</strong>.`
+        ul.append(li)
+    })
+}
